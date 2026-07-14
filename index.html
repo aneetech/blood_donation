@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            
+            font-family: "Caprasimo", serif;
+  font-weight:15000px;
+  font-style:italic ;
+
+        }
+
+        .hero-section {
+            background-image: url('./image/3.jpg' ); /* Ensure this image exists in your project folder */
+            background-size: cover;
+            background-position: center;
+            color: brown;
+            padding: 250px 0;
+            text-align: center;
+        
+        }
+
+        .hero-section h1 {
+            font-size: 5rem;
+            font-weight: bold;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white !important; /* Changed to white for better contrast */
+        }
+
+        .navbar {
+            background-color: #dc3545 !important; /* Navbar background color changed to red */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.5rem;
+            color: white !important; /* White text for navbar links */
+            
+        }
+
+        .btn-donate {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+        }
+
+        .btn-donate:hover {
+            background-color: #c82333;
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        .section-padding {
+            padding: 50px 0;
+            
+            background-size: cover;
+        
+        }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        
+      #rr{
+         background-image: url('./image/6.jpg' );
+         background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #donate{
+        background-image: url("./image/Screenshot\ 2025-09-15\ 230018.png");
+        background-image: opacity 0.2;
+      }
+      #donat{
+        background-image: url("image/d2.png");
+        background-size: cover;
+      }
+      #contact{
+        background-image: url("./image/Screenshot\ 2025-09-15\ 230018.png");
+      }
+      #color{
+        color: #c82333;
+      }
+      #bol{
+      font-weight: bolder;
+       font-size: 40px;
+      }
+    
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blood Bank</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donate">Donate Blood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#request">Request Blood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-duration="3000">Save Lives, Donate Blood</h1>
+            <p  data-aos="fade-right" data-aos-duration="3000">Join our mission to provide life-saving blood to those in need.</p>
+            <a href="#donate" class="btn btn-donate btn-lg mt-3"  data-aos="fade-up" data-aos-duration="3000">Donate Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+         <h2 class=" mb-5 text-center" id="bol"  data-aos="flip-left" data-aos-duration="3000">About Our Blood Bank</h2>
+            <div class="row" >
+                <div class="col-md-6 "  data-aos="fade-left" data-aos-duration="3000">
+                    <img src="./image/4.jpg"  alt="">
+                </div>
+                <div class="col-md-6 " id="rr"  data-aos="fade-right" data-aos-duration="3000">
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+                
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+                   <p  data-aos="fade-up" data-aos-duration="3000">We are a non-profit organization dedicated to collecting, storing, and distributing blood to hospitals and patients in need. Our mission is to ensure a safe and reliable blood supply for emergencies and medical treatments.</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Blood Section -->
+    <section id="donate" class="section-padding bg-light">
+        <div class="container-fluid" id="ell">
+            <h2 class="text-center mb-5" id="bol"  data-aos="flip-right" data-aos-duration="1050">Donate Blood</h2>
+            <div class="row">
+                <div class="col-md-4"  data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="card text-center p-3">
+                        <h4>Eligibility</h4>
+                        <p>Learn about the eligibility criteria for donating blood.</p>
+                        <a href="#" class="btn btn-donate">Check Eligibility</a>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="card text-center p-3">
+                        <h4>Book Appointment</h4>
+                        <p>Schedule a convenient time to donate blood.</p>
+                        <a href="#" class="btn btn-donate">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="card text-center p-3">
+                        <h4>Donation Process</h4>
+                        <p>Understand the steps involved in blood donation.</p>
+                        <a href="#" class="btn btn-donate">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Blood Section -->
+    <section id="request" class="section-padding">
+        <div class="container" id="donat" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+            <h2 class="text-center mb-5" id="bol" data-aos="fade-up" data-aos-duration="3000">Request Blood</h2>
+            <div class="row" data-aos="fade-down" data-aos-duration="3000">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="bloodGroup" class="form-label">Blood Group</label>
+                            <select class="form-select" id="bloodGroup">
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Quantity (Units)</label>
+                            <input type="number" class="form-control" id="quantity">
+                        </div>
+                        <div class="mb-3">
+                            <label for="hospital" class="form-label">Hospital Name</label>
+                            <input type="text" class="form-control" id="hospital">
+                        </div>
+                        <button type="submit" class="btn btn-donate w-100">Submit Request</button><br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container" >
+            <h2 class="text-center mb-5" id="bol">Contact Us</h2>
+            <div class="row" >
+                <div class="col-md-4" >
+                    <h4 id="color">Address</h4>
+                    <p><b>55 Blood Bank</b></p>
+                        <p> Harraiya Ayodhya Road, Basti, Uttar Pradesh, India</p>
+                </div>
+                <div class="col-md-4" >
+                    <h4 id="color">Phone</h4>
+                    <p>+91 9260958541,</p>
+                     <p>+91 9670653515</p>
+                </div>
+                <div class="col-md-4" >
+                    <h4 id="color">Email</h4>
+                    <p>eraneesha16@gmail.com ,</p>
+                    <p>aneesha4544@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Blood Bank. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Animation -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init( );
+  </script>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
